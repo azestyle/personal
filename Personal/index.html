@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" type="module" defer></script>
+</head>
+<body>
+  
+    <header class="header">
+        <h1 class="header-context">İsdifadəçi Məlumat Portalı</h1>
+    </header>
+       <div class="new-user-box">
+        <button class="new-user">yeni istifadəçi əlavə et</button>
+       </div>
+       <div class="create-modal-box d-none" id="createFirst">
+        <div class="create-modal">
+            <label for="images">Şəkil:</label>
+            <input type="text" id="images" class="create-img">
+            <label for="names">AD:</label>
+            <input type="text" id="names" class="create-name">
+            <label for="ages">Yaş:</label>
+            <input type="number" id="ages" class="create-age">
+            <div class="create-btn-box">
+                <button class="add-btn">Əlavə et</button>
+                <button class="back-btn">Geri qayıt</button>
+            </div>
+        </div>
+        
+       </div>
+    <footer class="footer">
+       
+       <div class="user-board">
+          
+       </div>
+    </footer>
+    <div class="modal d-none" id="modal-div">
+        <div class="modal-context">
+            <label for="name">Ad:</label>
+            <input type="text" id="name" class="modal-name">
+            <label for="age">Yas:</label>
+            <input type="number" id="age" class="modal-age">
+            <div class="modal-btn-div">
+                <button class="modal-btn">Təsdiq et</button>
+                <button class="modal-dont">İmtina et</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
